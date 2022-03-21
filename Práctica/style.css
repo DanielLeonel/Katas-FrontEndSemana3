@@ -1,0 +1,373 @@
+body{
+    padding-left: 150px;
+}
+
+h2{
+    font-size: 50px;
+    color:rgb(3, 28, 172);
+}
+h1{
+    font-size: 100px;
+    color: rgb(7, 33, 104);
+}
+
+.caja-fixed  {
+    
+    background: white;
+    opacity: 0.75;
+    position: fixed;
+    width: 1900px;
+    height: 150px;
+    top: 0px;
+    display: inline-block;
+    font-size: 25px;
+    z-index: 2000;
+    
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+}
+.nav__li:hover{
+    color: grey;
+}
+button{
+    background-color: rgb(3, 28, 172);
+    height: 65px;
+    width: 230px;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 10%;
+    border-radius: 10px;
+    border-color:  rgb(3, 28, 172);
+    box-shadow: 40px;
+}
+
+
+.first-block{
+    width: 1850px;
+    height: 1000px;
+}
+
+.first_block_div1{
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    margin-top: 200px;
+    display: inline-block;
+    color: rgb(7, 33, 104);
+    
+}
+
+.first_block_div1_p{
+    margin-top: 20px;
+    font-size: 32px;
+    padding: 0px 80px 0px 0px;
+}
+
+.first_block_div-li{
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 10px;
+    color: rgb(7, 33, 104);
+}
+
+.first_block-div{
+    margin-top: 55px;
+    color: rgb(7, 33, 104);
+}
+
+.first_block-div-time{
+    margin-top: 145px;
+}
+.first_block_div1_1{
+    position: absolute;
+    margin-left: 800px;
+    width: 950px;
+    height: 1200px;
+    display: inline-block;
+    z-index: 1;
+    
+}
+.first_block_div1_1 img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+.schedule{
+    position: absolute;
+    width: 1250px;
+    opacity: 0.7;
+    background: white;
+    box-shadow: 1px 1px 30px rgba(163, 177, 226,0.5);
+    z-index: 5;
+    color: rgb(7, 33, 104);
+    
+}
+.schedule_vaccination{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    color: rgb(7, 33, 104);
+    
+ }
+
+ .company{
+     position: absolute;
+     margin-top: 300px;
+ }
+ 
+ .second_block{
+     position: absolute;
+     margin-top: 700px;
+     width: 700px;
+     padding-right: 40px;
+     color: rgb(7, 33, 104);
+ }
+
+ .second_block h2 {
+     font-size: 60px;
+
+ }
+ .second_block_text{
+     padding-top: 40px;
+     font-size: 25px;
+ }
+
+
+ .third_block{
+     position: absolute;
+     margin-top: 1000px;
+     color: rgb(7, 33, 104);
+ }
+
+ .third_block_blocks{
+     font-size: 19px;
+     width: 320px;
+     height: 350px;
+     margin: 0px 80px 0px 10px;
+     display: inline-block;
+     padding: 30px 40px 30px 40px ;
+     box-shadow: 1px 1px 30px rgba(163, 177, 226,0.2);
+ }
+
+ .third_block_blocks h3{
+     font-size: 30px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+ }
+
+ .fourth_block{
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 800px;
+    width: 850px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    color: rgb(7, 33, 104);
+}
+
+.fourth_block h2 {
+    font-size: 60px;
+
+}
+.fourth_block_text{
+    padding-top: 40px;
+    font-size: 30px;
+    width: 700px;
+}
+
+.fifth_block{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: -150px;
+    width: 1800px;
+    height: 630px;
+ 
+    
+
+}
+.fifth_block_color{
+    position: absolute;
+    width: 800px;
+    height: 630px;
+    background: linear-gradient(135deg, rgba(19,152,187,1) 0%, rgba(78,174,255,1) 48%, rgba(0,56,255,1) 100%);
+    display: inline-block;
+
+}
+
+.fifth_block_color_tabla{
+    width: 800px;
+    height: 500px;
+    margin-left: 900px;
+    background: none;
+
+}
+.bloque_cinco{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(7, 33, 104);
+    
+}
+.fifth_block_color_tabla_elementos p{
+    color: rgb(7, 33, 104);
+    padding-left: 45px ;
+    padding-top: 30px;
+    
+}
+
+.fifth_block_color_tabla_elementos{
+    border: 1px solid rgb(233, 228, 228);
+    width: 400px;
+    margin: 10px;
+}
+
+.woman{
+    position: absolute;
+    margin-top: 1764px;
+    margin-left: -500px;
+    width: 1300px;
+    
+}
+.wonam img{
+    object-fit: cover;
+}
+
+
+.sixth_block{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    margin-top: 2800px;
+    font-size: 30px;
+}
+
+.sixth_block h2{
+    font-size: 60px;
+}
+
+.sixth_block_text{
+    width: 35%;
+    margin-top: 50px;
+}
+
+.seventh_block{
+    position: absolute;
+    height: 800px;
+    width: 2050px;
+    margin-top: 3300px;
+    margin-left: -100px;
+}
+
+.seventh_block_blocks{
+    width: 950px;
+    height: 1000px;
+    display: inline-block;
+}
+
+.blocks{
+    
+    width: 350px;
+    border: 1px solid rgb(209, 205, 205);
+    display: inline-block;
+    margin: 50px;
+    /* padding: 50px 0px 50px 50px; */
+}
+.elementos{
+    display: inline-block;
+}
+
+.elementos img{
+    padding: 40px;
+}
+.elementos h3{
+    font-size: 40px;
+    padding-top: -40px;
+    color: rgb(7, 33, 104);
+    
+}
+.elementos p{
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: rgb(7, 33, 104);
+}
+
+.elementos button{
+    margin: 40px;
+}
+
+.seventh_block_image{
+    position: absolute;
+    margin-top: 260px;
+    width: 950px;
+    height: 800px;
+    background: linear-gradient(135deg, rgba(19,152,187,1) 0%, rgba(78,174,255,1) 48%, rgba(0,56,255,1) 100%);
+    display: inline-block;
+}
+.seventh_block_image img{
+    object-fit: cover;
+    margin-top: -240px;
+    height: 130%;
+}
+
+.footer{
+    /* position: absolute; */
+    margin-top: 4500px;
+    width: 1950px;
+    height: 600px;
+    margin-left: -140px;
+    background: rgb(242, 244, 250);
+    color: rgb(7, 33, 104);
+    font-size: 30px;
+}
+
+.footer h3{
+    font-size: 60px;
+    padding-top: 100px;
+}
+.footer p{
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.footer_caja{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    /* margin: 20px; */
+    display: inline-block;
+}
+.footer_first_content{
+    width: 900px;
+    height: 200px;
+    display: inline-block;
+   
+}
+
+td{
+    padding: 20px;
+}
+th{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: left;
+}
+.tabla{
+    padding-top: -100px;
+}
+
+.last{
+    padding: 100px;
+    display: inline-block;
+    width: 49%;
+}
